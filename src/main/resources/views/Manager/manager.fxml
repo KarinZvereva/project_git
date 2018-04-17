@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="500.0" prefWidth="700.0" style="-fx-background-color: #15334A;" xmlns="http://javafx.com/javafx/9.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="ru.isu.math.zvereva.myapp.controllers.ManagerController">
+   <children>
+      <AnchorPane layoutY="148.0" prefHeight="372.0" prefWidth="700.0" style="-fx-background-color: #F5F7F9;" />
+      <Button fx:id="exit" layoutX="565.0" layoutY="15.0" mnemonicParsing="false" onAction="#exitClick" prefHeight="45.0" prefWidth="121.0" style="-fx-background-color: #F37E19;" text="Выйти" textFill="#192b4d">
+         <font>
+            <Font name="Arial Rounded MT Bold" size="15.0" />
+         </font>
+      </Button>
+      <Button fx:id="cost" layoutX="24.0" layoutY="77.0" mnemonicParsing="false" onAction="#costClick" prefHeight="45.0" prefWidth="236.0" style="-fx-background-color: #F37E19;" text="Рассчитать стоимость туров" textFill="#192b4d">
+         <font>
+            <Font name="Arial Rounded MT Bold" size="15.0" />
+         </font>
+      </Button>
+      <Button fx:id="price" layoutX="24.0" layoutY="15.0" mnemonicParsing="false" onAction="#priceClick" prefHeight="45.0" prefWidth="155.0" style="-fx-background-color: #F37E19;" text="Мониторинг цен" textFill="#192b4d">
+         <font>
+            <Font name="Arial Rounded MT Bold" size="15.0" />
+         </font>
+      </Button>
+      <Label fx:id="date" layoutX="433.0" layoutY="21.0" prefHeight="34.0" prefWidth="121.0" text="Label" textFill="#f7f7f8">
+         <font>
+            <Font name="Arial Rounded MT Bold" size="15.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>

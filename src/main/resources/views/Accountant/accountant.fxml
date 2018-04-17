@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+
+<AnchorPane prefHeight="500.0" prefWidth="700.0" style="-fx-background-color: #15334A;" xmlns="http://javafx.com/javafx/9.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="ru.isu.math.zvereva.myapp.controllers.AccountantController">
+   <children>
+      <AnchorPane layoutY="141.0" prefHeight="361.0" prefWidth="700.0" style="-fx-background-color: #F5F7F9;" />
+      <Button fx:id="exit" layoutX="565.0" layoutY="23.0" mnemonicParsing="false" onAction="#exitClick" prefHeight="45.0" prefWidth="121.0" style="-fx-background-color: #F37E19;" text="Выйти" textFill="#192b4d" AnchorPane.topAnchor="20.0">
+         <font>
+            <Font name="Arial Rounded MT Bold" size="15.0" />
+         </font>
+      </Button>
+      <Label fx:id="date" layoutX="428.0" layoutY="26.0" prefHeight="34.0" prefWidth="121.0" text="Label" textFill="#f7f7f8">
+         <font>
+            <Font name="Arial Rounded MT Bold" size="15.0" />
+         </font>
+      </Label>
+      <Button fx:id="salary" layoutX="21.0" layoutY="20.0" mnemonicParsing="false" onAction="#salaryClick" prefHeight="45.0" prefWidth="254.0" style="-fx-background-color: #F37E19;" text="Рассчитать заработную плату" textFill="#192b4d" AnchorPane.topAnchor="20.0">
+         <font>
+            <Font name="Arial Rounded MT Bold" size="15.0" />
+         </font>
+      </Button>
+      <Button fx:id="income" layoutX="21.0" layoutY="75.0" mnemonicParsing="false" onAction="#incomeClick" prefHeight="45.0" prefWidth="185.0" style="-fx-background-color: #F37E19;" text="Подсчитать доходы" textFill="#192b4d">
+         <font>
+            <Font name="Arial Rounded MT Bold" size="15.0" />
+         </font>
+      </Button>
+   </children>
+</AnchorPane>

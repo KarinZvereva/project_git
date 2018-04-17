@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="506.0" prefWidth="700.0" style="-fx-background-color: #15334A;" xmlns="http://javafx.com/javafx/9.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="ru.isu.math.zvereva.myapp.controllers.AdminController">
+   <children>
+      <AnchorPane layoutY="86.0" prefHeight="420.0" prefWidth="700.0" style="-fx-background-color: #F5F7F9;">
+         <children>
+            <TableView layoutY="30.0" prefHeight="390.0" prefWidth="700.0">
+              <columns>
+                <TableColumn prefWidth="43.0" text="№" />
+                <TableColumn prefWidth="95.0" text="Usename" />
+                  <TableColumn prefWidth="117.0" text="Password" />
+                  <TableColumn prefWidth="115.0" text="First Name" />
+                  <TableColumn prefWidth="115.0" text="Last Name" />
+                  <TableColumn prefWidth="114.0" text="User rights" />
+                  <TableColumn prefWidth="102.0" text="Department" />
+              </columns>
+            </TableView>
+         </children>
+      </AnchorPane>
+      <Label fx:id="prof" layoutX="376.0" layoutY="24.0" prefHeight="36.0" prefWidth="72.0" text="Admin" textFill="WHITE">
+         <font>
+            <Font name="Arial Rounded MT Bold" size="20.0" />
+         </font>
+      </Label>
+      <Button fx:id="add" layoutX="162.0" layoutY="18.0" mnemonicParsing="false" onAction="#addClick" prefHeight="44.0" prefWidth="127.0" style="-fx-background-color: #F37E19;" text="Add new user" textFill="#1d2868">
+         <font>
+            <Font name="Arial Rounded MT Bold" size="15.0" />
+         </font>
+      </Button>
+      <Button fx:id="exit" layoutX="585.0" layoutY="24.0" mnemonicParsing="false" onAction="#exitClick" prefHeight="36.0" prefWidth="94.0" style="-fx-background-color: #F37E19;" text="Exit" textFill="#192b4d">
+         <font>
+            <Font name="Arial Rounded MT Bold" size="15.0" />
+         </font>
+      </Button>
+      <Button fx:id="del" layoutX="21.0" layoutY="18.0" mnemonicParsing="false" onAction="#delClick" prefHeight="44.0" prefWidth="127.0" style="-fx-background-color: #F37E19 #F37E19; -fx-border-radius: 5;" text="Delete user " textFill="#192e54">
+         <font>
+            <Font name="Arial Rounded MT Bold" size="15.0" />
+         </font>
+      </Button>
+      <Label fx:id="date" layoutX="456.0" layoutY="29.0" prefHeight="26.0" prefWidth="112.0" text="Label" textFill="#eaeaeb">
+         <font>
+            <Font name="Arial Rounded MT Bold" size="15.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>

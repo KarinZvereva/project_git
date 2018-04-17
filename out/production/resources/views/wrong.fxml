@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="500.0" prefWidth="700.0" style="-fx-background-color: #15334A;" xmlns="http://javafx.com/javafx/9.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="ru.isu.math.zvereva.myapp.controllers.MainController">
+   <children>
+      <Label layoutX="51.0" layoutY="48.0" prefHeight="90.0" prefWidth="487.0" text="Wrong username or password !" textAlignment="CENTER" textFill="#e4981f" AnchorPane.bottomAnchor="100.0" AnchorPane.leftAnchor="105.0" AnchorPane.rightAnchor="105.0" AnchorPane.topAnchor="100.0">
+         <font>
+            <Font name="Arial Rounded MT Bold" size="31.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>

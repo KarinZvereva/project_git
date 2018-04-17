@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+
+<AnchorPane prefHeight="605.0" prefWidth="700.0" style="-fx-background-color: #15334A;" xmlns="http://javafx.com/javafx/9.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="ru.isu.math.zvereva.myapp.controllers.PriceController">
+   <children>
+      <Button fx:id="save" layoutX="264.0" layoutY="538.0" mnemonicParsing="false" onAction="#saveClick" prefHeight="45.0" prefWidth="173.0" style="-fx-background-color: #F37E19;" text="Сохранить" textFill="#192b4d">
+         <font>
+            <Font name="Arial Rounded MT Bold" size="15.0" />
+         </font>
+      </Button>
+      <AnchorPane layoutY="70.0" prefHeight="430.0" prefWidth="700.0" style="-fx-background-color: #F5F7F9;">
+         <children>
+            <TableView layoutY="31.0" prefHeight="420.0" prefWidth="700.0">
+              <columns>
+                <TableColumn prefWidth="50.0" text="№" />
+                <TableColumn prefWidth="152.0" text="Наименование тура" />
+                  <TableColumn prefWidth="112.0" text="Период" />
+                  <TableColumn prefWidth="131.0" text="Турагенство X" />
+                  <TableColumn prefWidth="133.0" text="Условия скидок" />
+                  <TableColumn prefWidth="121.0" text="Цена" />
+              </columns>
+            </TableView>
+         </children>
+      </AnchorPane>
+   </children>
+</AnchorPane>

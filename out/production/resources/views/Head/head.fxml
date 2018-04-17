@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="586.0" prefWidth="700.0" style="-fx-background-color: #15334A;" xmlns="http://javafx.com/javafx/9.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="ru.isu.math.zvereva.myapp.controllers.HeadController">
+   <children>
+      <AnchorPane layoutX="-3.0" layoutY="163.0" prefHeight="423.0" prefWidth="708.0" style="-fx-background-color: #F5F7F9;" />
+      <Label fx:id="data" layoutX="429.0" layoutY="24.0" prefHeight="33.0" prefWidth="145.0" text="Label" textFill="#eeeeee">
+         <font>
+            <Font name="Arial Rounded MT Bold" size="15.0" />
+         </font>
+      </Label>
+      <Button fx:id="exit" layoutX="583.0" layoutY="22.0" mnemonicParsing="false" onAction="#exitClick" prefHeight="36.0" prefWidth="94.0" style="-fx-background-color: #F37E19;" text="Выход" textFill="#192b4d">
+         <font>
+            <Font name="Arial Rounded MT Bold" size="15.0" />
+         </font>
+      </Button>
+      <Button fx:id="conclude" layoutX="28.0" layoutY="18.0" mnemonicParsing="false" onAction="#concludeClick" prefHeight="44.0" prefWidth="164.0" style="-fx-background-color: #F37E19 #F37E19; -fx-border-radius: 5;" text="Заключить контракт" textFill="#192e54">
+         <font>
+            <Font name="Arial Rounded MT Bold" size="14.0" />
+         </font>
+      </Button>
+      <Button fx:id="change" layoutX="226.0" layoutY="19.0" mnemonicParsing="false" onAction="#changeClick" prefHeight="44.0" prefWidth="164.0" style="-fx-background-color: #F37E19 #F37E19; -fx-border-radius: 5;" text="Изменить данные " textFill="#192e54">
+         <font>
+            <Font name="Arial Rounded MT Bold" size="15.0" />
+         </font>
+      </Button>
+      <Button fx:id="trip" layoutX="28.0" layoutY="88.0" mnemonicParsing="false" onAction="#tripClick" prefHeight="44.0" prefWidth="145.0" style="-fx-background-color: #F37E19 #F37E19; -fx-border-radius: 5;" text="Показать поездки" textFill="#192e54">
+         <font>
+            <Font name="Arial Rounded MT Bold" size="15.0" />
+         </font>
+      </Button>
+   </children>
+</AnchorPane>

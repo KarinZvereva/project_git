@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="600.0" prefWidth="700.0" style="-fx-background-color: #15334A;" xmlns="http://javafx.com/javafx/9.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="ru.isu.math.zvereva.myapp.controllers.ChangeDataController">
+   <children>
+      <Button layoutX="522.0" layoutY="14.0" mnemonicParsing="false" onAction="#addCustomer" prefHeight="44.0" prefWidth="164.0" style="-fx-background-color: #F37E19 #F37E19; -fx-border-radius: 5;" text="Добавить клиента" textFill="#192e54" AnchorPane.topAnchor="20.0">
+         <font>
+            <Font name="Arial Rounded MT Bold" size="15.0" />
+         </font>
+      </Button>
+      <AnchorPane layoutY="86.0" prefHeight="528.0" prefWidth="700.0" style="-fx-background-color: #F5F7F9;">
+         <children>
+            <TableView prefHeight="558.0" prefWidth="700.0">
+              <columns>
+                <TableColumn prefWidth="35.0" text="№" />
+                <TableColumn prefWidth="124.0" text="Фамилия" />
+                  <TableColumn prefWidth="94.0" text="Имя" />
+                  <TableColumn prefWidth="111.0" text="Отчество" />
+                  <TableColumn prefWidth="116.0" text="Дата рождения" />
+                  <TableColumn prefWidth="101.0" text="Телефон" />
+                  <TableColumn prefWidth="118.0" text="Контракты" />
+              </columns>
+            </TableView>
+         </children>
+      </AnchorPane>
+   </children>
+</AnchorPane>
